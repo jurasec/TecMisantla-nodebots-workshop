@@ -28,6 +28,12 @@ board.on('ready', function() {
   led.on();
   led.color('#FF0000');
 
+  app.io.route('colorChange', function( request ) {
+    console.log('=> New color: ', request.data.color);
+
+    led.color( request.data.color );
+  });
+
 });
 
 
