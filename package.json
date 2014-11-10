@@ -1,0 +1,13 @@
+{
+  "name": "Misantla-workshop",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {    
+  },
+  "description": "Taller de introducción a JohnnyFive",
+  "main": "app.js",
+  "author": "Julio César <jurasec@gmail.com> <@_JuraseC>",
+  "license": "MIT"
+}
