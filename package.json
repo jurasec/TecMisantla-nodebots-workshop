@@ -4,7 +4,8 @@
   "scripts": {
     "start": "node ./bin/www"
   },
-  "dependencies": {    
+  "dependencies": {
+    "johnny-five": "^0.8.23"
   },
   "description": "Taller de introducción a JohnnyFive",
   "main": "app.js",
