@@ -24,5 +24,4 @@ Running:
 $ node bin/www
 ```
 ##Breadboard/Illustration
-
-![led-rgb](breadboard/logo.png)
+<img src="/breadboard/led-rgb.png" alt="" style="width: 462px;"/>
