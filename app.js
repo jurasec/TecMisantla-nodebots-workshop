@@ -7,14 +7,19 @@ board = new five.Board();
 board.on('ready', function() {
   console.log('Board ready for fun!');
 
-  console.log(process.argv[0], process.argv[1]);
-
-  led = new five.Led({
-    pin: process.argv[2] || 13
+  led = new five.Led.RGB({
+    pins: {
+      red: 9,
+      green: 10,
+      blue: 11
+    }
   });
 
   this.repl.inject({
     led: led
   });
+
+  led.on();
+  led.color('#FF0000');
 
 });
