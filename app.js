@@ -6,6 +6,7 @@ var five = require('johnny-five'),
     led;
 
 app.http().io();
+app.use(express.static(path.join(__dirname, 'public')));
 
 board = new five.Board();
 
