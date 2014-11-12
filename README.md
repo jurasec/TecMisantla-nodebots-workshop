@@ -7,7 +7,7 @@ You will need:
 
 - Arduino
 - LED RGB
-- 3 220 ohm resistor 
+- 3 x 220 ohm resistor 
 - some wires
 
 Clone this repository:
