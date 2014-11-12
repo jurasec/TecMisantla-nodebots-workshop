@@ -21,7 +21,7 @@ $ npm install
 ```
 Running:
 ```bash
-$ node bin/www
+$ node app.js
 ```
 ##Breadboard/Illustration
 <img src="/breadboard/led-rgb.png" alt="" style="width: 462px;"/>

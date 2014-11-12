@@ -26,7 +26,7 @@ board.on('ready', function() {
   });
 
   led.on();
-  led.color('#FF0000');
+  led.color('#FF0000'); // inicia con el color rojo
 
   app.io.route('colorChange', function( request ) {
     console.log('=> New color: ', request.data.color);
